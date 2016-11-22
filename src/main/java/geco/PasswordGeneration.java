@@ -7,6 +7,10 @@ import org.apache.commons.lang.RandomStringUtils;
  */
 public class PasswordGeneration {
 
+    /**
+     * Construis un mdp sur 8 caractères avec A-Za-z0-9 + les caractères spéciaux
+     * @return String le mot de passe aléatoire
+     */
     public static String getRandomPassword(){
         String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~`!@#$%^&*()-_=+[{]}\\|;:\'\",<.>/?";
         String pwd = RandomStringUtils.random(8, characters);
