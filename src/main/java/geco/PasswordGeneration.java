@@ -14,4 +14,8 @@ public class PasswordGeneration {
         return pwd;
     }
 
+    public static void main(String [] args){
+        String s1 = "";
+        s1 = getRandomPassword();
+    }
 }
