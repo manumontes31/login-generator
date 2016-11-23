@@ -23,6 +23,8 @@ public class LoginGeneratorTest {
         assertEquals(nom3,"PDUR1");
         String nom4 = loginG.generateLoginForNomAndPrenom("Ralling","Jean");
         assertEquals(nom4,"JRAL2");
+        String nom5 = loginG.generateLoginForNomAndPrenom("Du","Paul");
+        assertEquals(nom5,"PDU");
 
     }
 
